@@ -11,12 +11,12 @@ def sum_csv(file_name, column_index):
             total += float((row[column_index]))
         return total
 
-file_name = "./uber_hours.csv"
+file_name = "./hours.csv"
 column_num = 0
 column_sum = sum_csv(file_name, column_num)
 print(column_sum)
 
-file_name = "./uber_hours.csv"
+file_name = "./hours.csv"
 column_num = 1
 column_sum = sum_csv(file_name, column_num)
 print(column_sum/60)
